@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+    ;
+}
+
+
+.container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.above {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 85px 32px 76px;
+    line-height: 36px;
+
+}
+
+.above h1 {
+
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    text-align: left;
+    color: #4D4F62;
+
+}
+
+.above h2 {
+
+    left: 1px;
+    top: 37px;
+    border-radius: nullpx;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    text-align: center;
+    margin-bottom: 13px;
+    color: #4D4F62;
+}
+
+.above p {
+    height: 75px;
+    width: 311px;
+    left: 0px;
+    top: 86px;
+    border-radius: nullpx;
+
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1041666641831398px;
+    text-align: center;
+
+    color: #4D4F62;
+    opacity: 0.5;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+
+    height: 222px;
+    width: 311px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 23px;
+}
+
+.item1 h1,
+.item2 h1,
+.item3 h1,
+.item4 h1 {
+
+    position: relative;
+    width: 334px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 27px 174px 1px 28px;
+}
+
+.item1 p,
+.item2 p,
+.item3 p,
+.item4 p {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.0902777761220932px;
+    text-align: left;
+    color: #4D4F62;
+    opacity: 0.5;
+    margin: 0px 28px 33px;
+}
+
+.item1 img,
+.item2 img,
+.item3 img,
+.item4 img {
+    height: 57px;
+    width: 57px;
+    border-radius: 0px;
+
+    margin: 0px 28px 28px 226px;
+}
+
+.item1 {
+    border-top: 3px solid #44D3D2;
+
+}
+
+.item2 {
+    border-top: 3px solid red;
+
+}
+
+.item3 {
+    border-top: 3px solid #FCAE4A;
+    ;
+
+}
+
+.item4 {
+
+    border-top: 3px solid #549EF2;
+
+}
+
+@media screen and (min-width: 750px) {
+    .container {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .above h1 {
+
+        height: 54px;
+        width: 544px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 275;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        text-align: center;
+        opacity: 0.5;
+
+        color: #4D4F62;
+
+    }
+
+    .above h2 {
+
+        height: 54px;
+        width: 641px;
+        left: 2px;
+        top: 51px;
+        border-radius: nullpx;
+
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        text-align: center;
+        color: #4D4F62;
+    }
+
+    .above p {
+        height: 50px;
+        width: 540px;
+        left: 0px;
+        top: 118px;
+        border-radius: nullpx;
+
+
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.1041666641831398px;
+        text-align: center;
+
+        color: #4D4F62;
+        opacity: 0.5;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        left: 170px;
+
+    }
+
+    .item1 {
+        border-top: 3px solid #44D3D2;
+        position: relative;
+        margin-top: 136px;
+        top: 50px;
+        left: -30px;
+
+    }
+
+    .item2 {
+        border-top: 3px solid red;
+
+
+    }
+
+    .item3 {
+        border-top: 3px solid #FCAE4A;
+        position: relative;
+        margin-top: 136px;
+        top: 192px;
+        left: -310px;
+    }
+
+    .item4 {
+
+        border-top: 3px solid #549EF2;
+        position: relative;
+        margin-top: 136px;
+        top: 50px;
+        left: -280px;
+
+    }
+
+
+
+
+
+
+
+}
